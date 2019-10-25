@@ -41,7 +41,7 @@
   </div>
  <!-- Button trigger modal -->
 <button type="reset" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
- Details Updated!!
+ Submit reply
 </button>
 
 <!-- Modal -->
