@@ -54,28 +54,28 @@ text-align:center;}
     <form action="listing" method="post">
   <div class="form-group">
     <label for="adTitle">Ad Title</label>
-    <input type="text" class="form-control" id="adTitle" name="adTitle" placeholder="Enter ad title">
+    <input required type="text" class="form-control" id="adTitle" name="adTitle" placeholder="Enter ad title">
   </div>
   
   <div class="form-group">
     <label for="adDesc">Ad Description</label>
-    <textarea class="form-control" id="adDesc" name="adDesc" rows="3"></textarea>
+    <textarea required class="form-control" id="adDesc" name="adDesc" rows="3"></textarea>
   </div>
   <div class="form-group">
     <label for="contactNumber">Contact Number</label>
-    <input type="tel" class="form-control" id="contactNumber" name="contactNumber" placeholder="Contact Number">
+    <input type="tel" required class="form-control" id="contactNumber" name="contactNumber" placeholder="Contact Number">
   </div>
   <div class="form-group">
     <label for="email">Email address</label>
-    <input type="email" class="form-control" id="email" name="email" placeholder="Enter email">
+    <input type="email" required class="form-control" id="email" name="email" placeholder="Enter email">
   </div>
   <div class="form-group">
     <label for="city">City</label>
-    <input type="text" class="form-control" id="city" name="city" placeholder="Enter City">
+    <input type="text" required class="form-control" id="city" name="city" placeholder="Enter City">
   </div>
   <div class="form-group">
     <label for="zip">ZIP Code</label>
-    <input type="number" max="999999" min="000000" class="form-control" id="zip" name="zip" placeholder="Enter ZIP">
+    <input type="number" required max="999999" min="000000" class="form-control" id="zip" name="zip" placeholder="Enter ZIP">
   </div>
   
    
